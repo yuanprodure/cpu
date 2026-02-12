@@ -34,7 +34,7 @@ int isworking(int a[], int year, int month, int day){
 		}
 	}
 	for (int j = 1; j < month; j++){
-		if (j == 2 && (isrear(year)){
+		if (j == 2 && (isrear(year))){
 			days += 29;
 		}else{
 			days += a[j];
@@ -43,4 +43,3 @@ int isworking(int a[], int year, int month, int day){
 	return days + day;
 }
 	
-}

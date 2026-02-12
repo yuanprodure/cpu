@@ -1,0 +1,20 @@
+# 忽略整个Debug文件夹（截图里的Debug目录）
+Debug/
+
+# 忽略VS的项目配置文件（截图里的vcxproj相关）
+leecode_hot100.vcxproj
+leecode_hot100.vcxproj.filters
+leecode_hot100.vcxproj.user
+
+# 忽略VS的编译产物
+*.obj
+*.pdb
+*.ilk
+*.exe
+*.dll
+*.lib
+
+# 可选：忽略临时文件、日志等（按需添加）
+*.tmp
+*.log
+.DS_Store  # Mac系统的隐藏文件
